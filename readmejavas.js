@@ -19,9 +19,10 @@ var list = document.getElementsByTagName("li");
 //change text color
 var textColor = document.getElementsByClassName("listItem");
   for (i = 0; i < textColor.length; i++) {
-    textColor[i].style.color = "maroon";
+    textColor[i].style.color = "yellow";
   };
 
   //image
-  document.createElement("img");
-  pic.setAttribute("src", "menbuddy")
+  var pic = document.createElement("img");
+  pic.setAttribute("src", "menbuddy.jpg");
+  document.querySelector("body").append(pic);
